@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--FA-->
+    <link rel="stylesheet" href="styles/fa.css">
+    <link rel="stylesheet" href="styles/fansite.css">
+    <title>Jason Statham's fan site - Nous contacter</title>
+</head>
+
+<body id="contact">
+    <header>
+        <img src="styles/Image/Logo-l.png" alt="Jason Statham - Fan Site" id="logo-l">
+        <nav id="header-nav">
+            <img src="styles/Image/Logo-o.png" alt="Jason Statham - Fan Site" id="logo-o">
+            <ul>
+                <li id="accueil">
+                    <a href="fansite.html"><i class="far fa-home"></i> Accueil</a>
+                </li>
+                <li id="fansite2">
+                    <a href="fansite2.html"><i class="far fa-user"></i> Carrière</a>
+                </li>
+                <li id="fansite3">
+                    <a href="fansite3.html"><i class="far fa-grin-tears"></i> Fun Fact</a>
+                </li>
+                <li id="fansite4" class="is-select">
+                    <a href="fansite4.html"><i class="fab fa-wpforms"></i> Nous contacter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="block">
+            <div class="block-form">
+                <h1 class="title-page">Nous contacter</h1>
+                <form action="contact.php" method="post" >
+                    <dl class="form--input first">
+                        <dt>
+                            <div class="block-form-label">
+                                <label class="form-label" for="prenom">Prénom:</label>
+                                <dfn class="form-hint">Requis</dfn>
+                            </div>
+                        </dt>
+                        <dd>
+                            <input type="text" value="" name="prenom" required="required" autocomplete="family-name" maxlength="25"  id="prenom" class="input">
+                        </dd>
+                    </dl>
+                    <dl class="form--input">
+                        <dt>
+                            <div class="block-form-label">
+                                <label class="form-label" for="nom">Nom:</label>
+                            </div>
+                        </dt>
+                        <dd>
+                            <input type="text" name="nom" value="" autocomplete="family-name" maxlength="25" id="nom" class="input">
+                        </dd>
+                    </dl>
+                    <dl class="form--input">
+                        <dt>
+                            <div class="block-form-label">
+                                <label class="form-label" for="email">Email:</label>
+                                <dfn class="form-hint">Requis</dfn>
+                            </div>
+                        </dt>
+                        <dd>
+                            <input type="email" name="email" required="required" value="" id="email" autocomplete="email"  maxlength="120" class="input">
+                        </dd>
+                    </dl>
+                    <dl class="form--input">
+                        <dt>
+                            <div class="block-form-label">
+                                <label class="form-label" for="sujet">Sujet:</label>
+                                <dfn class="form-hint">Requis</dfn>
+                            </div>
+                        </dt>
+                        <dd>
+                            <input type="text" name="sujet" required="required" value="" id="sujet" maxlength="150" class="input">
+                        </dd>
+                    </dl>
+                    <dl class="form--input">
+                        <dt>
+                            <div class="block-form-label">
+                                <label class="form-label" for="message">Message:</label>
+                                <dfn class="form-hint">Requis</dfn>
+                            </div>
+                        </dt>
+                        <dd>
+                            <textarea name="presentation" id="message" rows="10" required="required" class="input"></textarea>
+                        </dd>
+                    </dl>
+                    <div class="form-submit">
+                        <button type="submit" class="button-action"><i class="far fa-paper-plane"></i> Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="linkList">
+            <a href="fansite.html"><i class="lite-fa far fa-home"></i></a>
+            <a href="fansite2.html"><i class="lite-fa far fa-user"></i></a>
+            <a href="fansite3.html"><i class="big-fa far fa-grin-tears"></i></a>
+            <a href="fansite4.html"><i class="lite-fa fab fa-wpforms"></i></a>
+        </div>
+        <div class="social-networking">
+            <a href="https://www.facebook.com/JasonStatham/" target="_blank"><img src="styles/Image/Facebook.svg"
+                    alt="logofacebook" width="50px" height="50px"></a>
+            <a href="https://www.instagram.com/jasonstatham/" target="_blank"><img src="styles/Image/Instagram.svg"
+                    alt="logoinstagram" width="50px" height="50px"></a>
+        </div>
+        <div class="copyright">
+            Copyright© by KB Nueve
+        </div>
+    </footer>
+</body>
+
+</html>
